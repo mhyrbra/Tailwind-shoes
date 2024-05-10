@@ -4,7 +4,7 @@ export default function Select({ title, options }) {
   return (
     <div className="relative">
       <select
-        id="shoe"
+        defaultValue={""}
         className=" w-24 appearance-none border border-gray-300 bg-transparent p-4"
       >
         <option value={""} hidden>
