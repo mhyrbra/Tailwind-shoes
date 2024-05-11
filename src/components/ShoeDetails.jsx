@@ -1,5 +1,5 @@
 import Select from "./Select";
-import { QTY, SIZES } from "../../constant.js";
+import { QTY, SIZES } from "./constant.js";
 
 export default function ShoeDetails() {
   return (
