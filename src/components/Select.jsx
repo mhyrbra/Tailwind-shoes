@@ -9,7 +9,7 @@ export default function Select({
   defaultValue,
 }) {
   return (
-    <div className="relative">
+    <div className="relative dark:text-black">
       <select
         id={selectId}
         defaultValue={defaultValue || ""}

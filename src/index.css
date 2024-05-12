@@ -8,7 +8,7 @@
   }
 
   .btn-press-anim {
-    @apply transition active:scale-90;
+    @apply transition-transform active:scale-90;
   }
 }
 

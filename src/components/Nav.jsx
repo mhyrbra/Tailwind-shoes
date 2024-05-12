@@ -11,11 +11,11 @@ export default function Nav({ onClickShoppingBtn }) {
     <nav className="relative z-10 flex flex-wrap items-center justify-between">
       {/* logo */}
       <a href="#">
-        <Nikelogo className="h-20 w-20" />
+        <Nikelogo className="h-20 w-20 dark:fill-white" />
       </a>
       {/* burger button */}
       <button
-        className="rounded-lg p-2 hover:bg-gray-100 focus:ring-2 focus:ring-gray-100 lg:hidden"
+        className="rounded-lg p-2 hover:bg-gray-100 focus:ring-2 focus:ring-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 lg:hidden"
         onClick={() => setIsMobileMenuShown((prevState) => !prevState)}
       >
         <RxHamburgerMenu size={25} />
@@ -25,7 +25,7 @@ export default function Nav({ onClickShoppingBtn }) {
       <div
         className={`${!isMobileMenuShown && "hidden"} w-full lg:block lg:w-auto`}
       >
-        <ul className="flex flex-col rounded-lg border border-gray-50 bg-gray-50 p-4 text-lg lg:flex-row lg:space-x-8 lg:border-none lg:bg-transparent">
+        <ul className="flex flex-col rounded-lg border border-gray-50 bg-gray-50 p-4 text-lg lg:flex-row lg:space-x-8 lg:border-none lg:bg-transparent dark:lg:text-white">
           {ROUTES.map((route, i) => (
             <li
               key={route}
