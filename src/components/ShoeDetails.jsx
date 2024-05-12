@@ -6,7 +6,7 @@ export default function ShoeDetails() {
     <div className="flex flex-col space-y-4 lg:flex-row-reverse">
       {/* shoe image */}
       <div className="flex-1 lg:-mt-32 lg:ml-28">
-        <div className=" flex-center bg-gradient-to-br from-[#F637CF] via-[#E3D876] to-[#4DD4C6] lg:h-full">
+        <div className="flex-center bg-gradient-to-br from-[#F637CF] via-[#E3D876] to-[#4DD4C6] lg:h-full">
           <img className="animate-float" src="src\assets\n1-min.png" />
         </div>
       </div>
