@@ -1,6 +1,6 @@
 import Card from "./Card";
 
-const NewArrivalsSection = ({ items }) => {
+const NewArrivalsSection = ({ items, onClickCard }) => {
   return (
     <div className="mt-20">
       <div className="flex-center">
@@ -10,7 +10,7 @@ const NewArrivalsSection = ({ items }) => {
       </div>
       <div className="mt-10 grid grid-cols-1 gap-x-8 gap-y-20 md:grid-cols-2 xl:grid-cols-3">
         {items.map((item) => (
-          <Card key={item.id} item={item} />
+          <Card key={item.id} item={item} onClick={onClickCard} />
         ))}
       </div>
     </div>
