@@ -38,7 +38,7 @@ export default function ShoeDetails({ shoe, addToCart }) {
             onClick={() => {
               addToCart(shoe, form.qty, form.size);
             }}
-            className="btn-press-anim h-14 w-44 bg-black  text-white hover:bg-gray-900 active:bg-gray-700 dark:bg-white dark:text-black"
+            className="btn-press-anim h-14 w-44 bg-black  text-white hover:bg-gray-900 active:bg-gray-700 dark:bg-white dark:text-black dark:hover:bg-gray-200"
           >
             Add to bag
           </button>
